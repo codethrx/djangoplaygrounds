@@ -1,0 +1,14 @@
+1. Create virtual environment  
+    python -m venv .env
+    Activate or de-activate it.
+2. Install Django
+    python -m pip install Django
+
+3. Create Django project
+    django-admin startproject project-name
+4. Create an app in django project..
+    python manage.py startapp api
+    Created app should also be added to installed apps
+5. Starting application
+    cd app(project-folder)
+    python manage.py runserver
