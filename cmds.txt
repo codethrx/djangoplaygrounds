@@ -12,3 +12,4 @@
 5. Starting application
     cd app(project-folder)
     python manage.py runserver
+6. pip install -r requirements.txt
